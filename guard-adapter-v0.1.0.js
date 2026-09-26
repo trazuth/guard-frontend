@@ -210,7 +210,7 @@
 
   async function solvePoW(options = {}) {
     const memoryCost = options.memoryCost || 6388;
-    const apiBase123 = 'https://guard.trazuth.com/client/v0.1.1';
+    const apiBase123 = 'https://guard.trazuth.com/client/v0.1.0';
     const startTime = performance.now();
 
     const challengeUrl = `${apiBase123}/api/challenge?memorycost=${encodeURIComponent(memoryCost)}`;
